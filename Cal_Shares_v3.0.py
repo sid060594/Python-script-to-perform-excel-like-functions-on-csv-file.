@@ -10,7 +10,7 @@ import datetime
 import csv
 
 #Finding list of unique tickers
-with open('C:/Users/sid06/Desktop/miku stuffs/Bank.csv','r') as f:
+with open('C:/Users/sid06/Desktop/work stuffs/Bank.csv','r') as f:
     reader = csv.reader(f)
     output=[]
     #Finding unique ticker elements
